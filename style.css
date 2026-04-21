@@ -2,6 +2,8 @@ body{
     width: 100vw;
     height: 100vh;
     margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
 
 
@@ -14,29 +16,6 @@ body{
     height: 100%;
 }
 
-/* .container div{
-    background-color: blueviolet;
-} */
-
-#sidebar{
-    grid-area: 1/1/3/2;
-    background-color: rgb(25, 146, 212);
-    display: grid;
-    grid-template: 1fr 3fr 2fr/ 1fr;
-    gap: 30px;
-}
-
-#logo{
-    display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-    padding: 15px 10px 10px 15px ;
-    gap: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    font-size: 19px;
-
-}
 
 #header{
     background-color: white;
@@ -44,6 +23,78 @@ body{
     grid-template: 1fr 1.5fr / 2fr 1fr;
     gap: 10px;
 }
+
+#searchbar{
+    display: flex;
+    padding: 15px 0px 10px 18px;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+
+#searchicon{
+    height: 16px;
+    width: auto;
+}
+button[type="submit"]{
+    background: none;
+    border: none;
+}
+
+input[type="search"]{
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(226, 232, 240);
+    height: 22px;
+    width: 400px;
+}
+
+
+#sidebar{
+    grid-area: 1/1/3/2;
+    background-color: rgb(25, 146, 212);
+    display: grid;
+    grid-template: 80px 2fr 2fr/ 200px;
+}
+
+#logo{
+    display: flex;
+    padding: 15px 10px 0px 15px ;
+    gap: 10px;
+    font-size: 19px;
+    height: 50px;
+    width: 100%;
+
+}
+
+#nav1, #nav2{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px 10px 18px ;
+    gap: 18px;
+    width: 100%;
+
+}
+
+#nav1 div, #nav2 div{
+    display: flex;
+    gap: 16px;
+    width: 100%;
+}
+
+
+.icon{
+    fill: white;
+    height: 16px;
+    width: auto;
+    padding-top: 1px;
+    
+}
+
 
 #maincontent{
     background-color: whitesmoke;
