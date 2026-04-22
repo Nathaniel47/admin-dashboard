@@ -37,18 +37,15 @@ body{
     background-color: white;
     display: grid;
     grid-template: 1fr 1.5fr / 2fr 1fr;
-    gap: 10px;
 }
 
 #searchbar, #userinfo{
     display: flex;
-    padding: 15px 0px 10px 18px;
-    /* width: 100%; */
+    padding: 15px 0px 0px 18px;
 }
 
 form{
     display: flex;
-    /* width: 100%; */
     gap: 5px;
 }
 
