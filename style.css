@@ -181,8 +181,24 @@ input[type="search"]{
 }
 
 #projects{
-    grid-area: 1/1/3/2;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    color: black;
 
+}
+
+#individualprojects{
+    display: grid;
+    grid-template: 1fr 1fr/1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+#individualprojects div{
+    border-left: 5px solid gold;
+    border-radius: 5px;
+    
 }
 
 #announcement{
