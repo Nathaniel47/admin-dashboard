@@ -209,15 +209,32 @@ h4{
     row-gap: 20px;
 }
 
-#individualprojects div{
-    /* display: flex;
-    flex-direction: column; */
+#individualprojects>div{
+    display: flex;
+    flex-direction: column;
     background-color: white;
     border-left: 5px solid rgb(240, 180, 41);
     border-radius: 5px;
     height: 230px;
     padding: 20px;
     
+}
+
+#individualprojects p{
+    flex: 1;
+    margin-bottom: 0px;
+}
+
+.socialicons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+#starplus, #eyeplus, #share{
+    height: 23px;
+    width: auto;
 }
 
 #announcementandtrend{
